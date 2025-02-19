@@ -4,7 +4,7 @@ import logo from '../assets/img/dc-logo.png';
 function Header() {
     return (
         <header>
-            <div className="container">
+            <div className="container flex-beetween">
                 <figure>
                     <a href="#">
                         <img src={ logo } alt="Logo" />

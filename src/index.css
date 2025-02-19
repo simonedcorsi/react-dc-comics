@@ -10,6 +10,7 @@ html{
 
 :root{
   --mainColor: #0282F9;
+  --sectionComics: #1A1A1A;
 }
 
 /* Components Header */
@@ -19,11 +20,16 @@ header{
 }
 
 .container{
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   width: 80%;
   margin: 0 auto;
   align-items: center;
+}
+
+.flex-beetween{
+  display: flex;
+  justify-content: space-between;
 }
 
 a{
@@ -50,10 +56,53 @@ ul li:hover {
   color: var(--mainColor);
 }
 
+
+
 ul li.active a {
   color: var(--mainColor);
 }
 
 figure img {
   width: 50px;
+}
+
+/* Components Main */
+
+#comics{
+  background-color: var(--sectionComics);
+}
+
+#comics h2{
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#ComicsIcons{
+  background-color: var(--mainColor);
+  color: white;
+  padding: 20px 0;
+}
+
+#ComicsIcons figure{
+  display: inherit;
+}
+
+#ComicsIcons ul{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#ComicsIcons ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* padding: 20px 0; */
+}
+
+#ComicsIcons ul li figure img{
+  aspect-ratio: 1;
+  width: 24px;
 }
