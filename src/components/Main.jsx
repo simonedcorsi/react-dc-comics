@@ -9,7 +9,7 @@ function Main() {
         <main>
             <section id="comics">
                 <div className="container">
-                    <h2>-- products goes here --</h2>
+                    <h2>-- Content goes here --</h2>
                 </div>
             </section>
             <section id="ComicsIcons">
@@ -19,31 +19,31 @@ function Main() {
                             <figure>
                                 <img src={comics} alt="icon" />
                             </figure>
-                            <span>nome icon</span>
+                            <span>DIGITAL COMICS</span>
                         </li>
                         <li>
                             <figure>
                                 <img src={merch} alt="icon" />
                             </figure>
-                            <span>nome icon</span>
+                            <span>DC MERCHANDISE</span>
                         </li>
                         <li>
                             <figure>
                                 <img src={shop} alt="icon" />
                             </figure>
-                            <span>nome icon</span>
+                            <span>SUBSCRIPTION</span>
                         </li>
                         <li>
                             <figure>
                                 <img src={sub} alt="icon" />
                             </figure>
-                            <span>nome icon</span>
+                            <span>COMIC SHOP LOCATOR</span>
                         </li>
                         <li>
                             <figure>
                                 <img src={buy} alt="icon" />
                             </figure>
-                            <span>nome icon</span>
+                            <span>DC POWER VISA</span>
                         </li>
                     </ul>
                 </div>

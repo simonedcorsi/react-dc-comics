@@ -39,11 +39,14 @@ a{
 
 ul{
   list-style-type: none;
+}
+
+header ul{
   display: flex;
   gap: 15px;
 }
 
-ul li{
+header ul li{
   line-height: 50px;
 }
 
@@ -106,3 +109,80 @@ figure img {
   aspect-ratio: 1;
   width: 24px;
 }
+
+/* Components Footer */
+
+footer{
+  background-color: var(--sectionComics);
+  color: white;
+  /* padding: 20px 0; */
+}
+
+footer .container{
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+#topFooter {
+  background: url('./assets/img/footer-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#topFooter .bg-logo {
+  background: url('./assets/img/dc-logo-bg.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  gap: 40px;
+}
+
+footer a{
+  color: lightgray;
+}
+
+footer li:hover{
+  border-bottom: inherit;
+}
+
+footer ul li {
+  line-height: 160%;
+  font-size: 0.8rem;
+  color: lightgray;
+}
+
+footer .title{
+  font-size: 1.5rem;
+  color: white;
+}
+
+#bottomFooter{
+  background-color: var(--sectionComics);
+}
+
+#bottomFooter .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bottomFooter button{
+  border: 2px solid var(--mainColor);
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#bottomFooter .social {
+  display: flex;
+  gap: 20px;
+}
+
+#bottomFooter .social img{
+  width: 24px;
+}
+
