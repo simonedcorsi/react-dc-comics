@@ -146,6 +146,7 @@ footer a{
 
 footer li:hover{
   border-bottom: inherit;
+
 }
 
 footer ul li {
@@ -179,6 +180,7 @@ footer .title{
 
 #bottomFooter .social {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -186,3 +188,35 @@ footer .title{
   width: 24px;
 }
 
+
+
+
+
+
+/* JUMBOTRONE */
+#jumbotrone {
+  background-image: url('./assets/img/jumbotron.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.comicsList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.card{
+  color: white;
+  flex-basis: calc( 100% / 6 - 10px );
+  margin-block: 30px;
+}
+
+.card img{
+  width: 100%;
+  aspect-ratio: 3/4;
+}

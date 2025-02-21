@@ -4,12 +4,18 @@ import shop from "../assets/img/buy-comics-shop-locator.png"
 import sub from "../assets/img/buy-comics-subscriptions.png"
 import buy from "../assets/img/buy-dc-power-visa.svg"
 
+import ComicsList from "./comics/ComicsList"
+
 function Main() {
     return (
         <main>
             <section id="comics">
+                <div id="jumbotrone">
+
+                </div>
                 <div className="container">
-                    <h2>-- Content goes here --</h2>
+                    {/* <h2>-- Content goes here --</h2> */}
+                    <ComicsList />
                 </div>
             </section>
             <section id="ComicsIcons">
